@@ -1,25 +1,22 @@
-float quest1completed = 1;
-Boolean questOne = true;
+Boolean isQuest1completed = true;
+Boolean isQuest2completed = true;
+Boolean isQuest3completed = true;
+Boolean isEndgame = false;
 
-if(quest1completed == 1){
+if(isQuest1completed && isQuest2completed && isQuest3completed){
+
+  isEndgame=!isEndgame;
   
-}
 
-float quest2completed = 2;
-Boolean questTwo = true;
-
-if(quest2completed == 2){
-  
-}
-
-float quest3completed = 3;
-Boolean questThree = true;
-
-if(quest3completed == 3){
-
-  println("gefeliciteerd");
 
 }
+
+if(isEndgame){
+
+println("Gefeliciteerd!");
+
+}
+
 
 
 
