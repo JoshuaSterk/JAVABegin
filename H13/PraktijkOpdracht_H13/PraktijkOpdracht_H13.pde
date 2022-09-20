@@ -1,5 +1,4 @@
-boolean cols = true;
-    boolean draw = false;
+boolean draw = false;
     int x, y;
     void setup() {
       size(800,800);
